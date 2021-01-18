@@ -1,7 +1,7 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 5000;
 
 const searchRoute = require("./routes/search.js");
 const nominationsRoute = require("./routes/nominations.js");
