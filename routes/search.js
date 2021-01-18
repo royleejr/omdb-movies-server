@@ -36,6 +36,7 @@ router.get("/:title/:page", (req, res) => {
       //only want to rest the set when we are dealing with a new move title search and not just different pages for the same movie title search.
       if (title !== searchTitle && searchTitle !== "" && toggle) {
         movieIdsSet = new Set();
+        newData = [];
       }
       if (response.data.Search) {
         response.data.Search.forEach((movie) => {
