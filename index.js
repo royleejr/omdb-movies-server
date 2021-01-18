@@ -9,12 +9,8 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-// app.use("/search", searchRoute);
-// app.use("/nominations", nominationsRoute);
-
-app.get("/", (req, res) => {
-  res.send("It's working");
-});
+app.use("/search", searchRoute);
+app.use("/nominations", nominationsRoute);
 
 app.listen(PORT, () => {
   console.log("The server is running");
