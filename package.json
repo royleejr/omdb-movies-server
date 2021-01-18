@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node Index.js",
     "start:prod": "cross-env NODE_ENV=production nodemon index.js"
   },
   "author": "Roy Lee",
