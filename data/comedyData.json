@@ -1,0 +1,142 @@
+[
+  {
+    "Title": "Happy Gilmore",
+    "Year": "1996",
+    "imdbID": "tt0116483",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWI2NjliOTYtZjE1OS00YzAyLWJjYTQtYWNmZTQzMTQzNzVjXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Pineapple Express",
+    "Year": "2008",
+    "imdbID": "tt0910936",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTY1MTE4NzAwM15BMl5BanBnXkFtZTcwNzg3Mjg2MQ@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Austin Powers: International Man of Mystery",
+    "Year": "1997",
+    "imdbID": "tt0118655",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMWUwMmEwY2QtMGZmZC00ZDVjLTg1NDgtMmI0MmZmYmM4NGIxXkEyXkFqcGdeQXVyMTY5Nzc4MDY@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Tropic Thunder",
+    "Year": "2008",
+    "imdbID": "tt0942385",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNDE5NjQzMDkzOF5BMl5BanBnXkFtZTcwODI3ODI3MQ@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Ted",
+    "Year": "2012",
+    "imdbID": "tt1637725",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ1OTU0ODcxMV5BMl5BanBnXkFtZTcwOTMxNTUwOA@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Wayne's World",
+    "Year": "1992",
+    "imdbID": "tt0105793",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMDAyNDY3MjUtYmJjYS00Zjc5LTlhM2MtNzgzYjNlOWVkZjkzL2ltYWdlL2ltYWdlXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Ace Ventura: Pet Detective",
+    "Year": "1994",
+    "imdbID": "tt0109040",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BYmVhNmFmOGYtZjgwNi00ZGQ0LThiMmQtOGZjMDUzNzJhMGIzXkEyXkFqcGdeQXVyMTMxODk2OTU@._V1_SX300.jpg"
+  },
+  {
+    "Title": "American Pie",
+    "Year": "1999",
+    "imdbID": "tt0163651",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTg3ODY5ODI1NF5BMl5BanBnXkFtZTgwMTkxNTYxMTE@._V1_SX300.jpg"
+  },
+  {
+    "Title": "The 40-Year-Old Virgin",
+    "Year": "2005",
+    "imdbID": "tt0405422",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTNjYTA1NDMtZGZmZi00MTdiLThjZTMtZWU1MGYyZjZkNzgxXkEyXkFqcGdeQXVyNTAyODkwOQ@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Zoolander",
+    "Year": "2001",
+    "imdbID": "tt0196229",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BODI4NDY2NDM5M15BMl5BanBnXkFtZTgwNzEwOTMxMDE@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Dodgeball: A True Underdog Story",
+    "Year": "2004",
+    "imdbID": "tt0364725",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTIwMzE2MjM4MV5BMl5BanBnXkFtZTYwNjA1OTY3._V1_SX300.jpg"
+  },
+  {
+    "Title": "Ghostbusters",
+    "Year": "1984",
+    "imdbID": "tt0087332",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTkxMjYyNzgwMl5BMl5BanBnXkFtZTgwMTE3MjYyMTE@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Groundhog Day",
+    "Year": "1993",
+    "imdbID": "tt0107048",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZWIxNzM5YzQtY2FmMS00Yjc3LWI1ZjUtNGVjMjMzZTIxZTIxXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Superbad",
+    "Year": "2007",
+    "imdbID": "tt0829482",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTc0NjIyMjA2OF5BMl5BanBnXkFtZTcwMzIxNDE1MQ@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Dumb and Dumber",
+    "Year": "1994",
+    "imdbID": "tt0109686",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BZDQwMjNiMTQtY2UwYy00NjhiLTk0ZWEtZWM5ZWMzNGFjNTVkXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_SX300.jpg"
+  },
+  {
+    "Title": "The Best of Borat",
+    "Year": "2001",
+    "imdbID": "tt0274367",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMGU1NjE0ZjItNjVjMS00YTJhLWFmNGQtYTNiYjRkMjIwMzg1XkEyXkFqcGdeQXVyNjM2NDIwMzQ@._V1_SX300.jpg"
+  },
+  {
+    "Title": "The Hangover",
+    "Year": "2009",
+    "imdbID": "tt1119646",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BNGQwZjg5YmYtY2VkNC00NzliLTljYTctNzI5NmU3MjE2ODQzXkEyXkFqcGdeQXVyNzkwMjQ5NzM@._V1_SX300.jpg"
+  },
+  {
+    "Title": "Anchorman: The Legend of Ron Burgundy",
+    "Year": "2004",
+    "imdbID": "tt0357413",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTQ2MzYwMzk5Ml5BMl5BanBnXkFtZTcwOTI4NzUyMw@@._V1_SX300.jpg"
+  },
+  {
+    "Title": "White Chicks",
+    "Year": "2004",
+    "imdbID": "tt0381707",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BMTY3OTg2OTM3OV5BMl5BanBnXkFtZTYwNzY5OTA3._V1_SX300.jpg"
+  },
+  {
+    "Title": "Planes, Trains & Automobiles",
+    "Year": "1987",
+    "imdbID": "tt0093748",
+    "Type": "movie",
+    "Poster": "https://m.media-amazon.com/images/M/MV5BM2I1ZWNkYjEtYWY3ZS00MmMwLWI5OTEtNWNkZjNiYjIwNzY0XkEyXkFqcGdeQXVyNTI4MjkwNjA@._V1_SX300.jpg"
+  }
+]
