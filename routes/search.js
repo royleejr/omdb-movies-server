@@ -1,7 +1,6 @@
 const express = require("express");
 const router = express.Router();
 const axios = require("axios");
-require("dotenv").config();
 
 //created set for when the user looks for more results than just the exact title name, we will search for titles that include the input and more.
 let movieIdsSet = new Set();
@@ -22,12 +21,17 @@ router.get("/id/:id", (req, res) => {
       }
     })
     .catch((error) => {
-      console.log(error);
+      if (error.response.data.Response === "False") {
+        res.send(error.response.data.Error).status(500);
+      }
     });
 });
 
 router.get("/:title/:page", (req, res) => {
-  const { title, page } = req.params;
+  let { title, page } = req.params;
+  const titleString = `${title}`;
+  title = titleString.trim();
+
   axios
     .get(
       `http://www.omdbapi.com/?apikey=${process.env.API_KEY}&s=${title}&type=movie&page=${page}`
@@ -39,10 +43,14 @@ router.get("/:title/:page", (req, res) => {
         newData = [];
       }
       if (response.data.Search) {
+        let sendingData = [];
         response.data.Search.forEach((movie) => {
-          movieIdsSet.add(movie.imdbID);
+          if (!movieIdsSet.has(movie.imdbID)) {
+            sendingData.push(movie);
+            movieIdsSet.add(movie.imdbID);
+          }
         });
-        res.send(response.data.Search);
+        res.send(sendingData);
 
         if (!toggle) {
           toggle = true;
@@ -61,14 +69,15 @@ router.get("/:title/:page", (req, res) => {
       }
     })
     .catch((error) => {
-      console.log(error);
+      // console.log(error.response.data);
+      res.send(error.response.data).status(500);
     });
 });
 
 const fetchNonExactData = (title, res) => {
   axios
     .get(
-      `http://www.omdbapi.com/?apikey=c457f6e5&s=${title}*&type=movie&page=${extraPage}`
+      `http://www.omdbapi.com/?apikey=${process.env.API_KEY}&s=${title}*&type=movie&page=${extraPage}`
     )
     .then((response) => {
       if (response.data.Search) {

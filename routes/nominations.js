@@ -3,6 +3,7 @@ const router = express.Router();
 const fs = require("fs");
 
 const nominationsData = require("../data/nominationsData.json");
+const nominationsSet = new Set();
 
 router.get("/", (req, res) => {
   res.send(nominationsData).status(200);
